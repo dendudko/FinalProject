@@ -20,7 +20,7 @@ function sendMessage(){
     let mb = document.getElementById('messagebox')
     if (text.data.length>0) {
         text.data = text.data + "&nbsp&nbsp&nbsp&nbsp&nbsp" + date.toLocaleTimeString().slice(0, 5).bold()
-        mb.innerHTML += text.data + "<br><br>"
+        mb.innerHTML += text.data + "<br>"
         count++
         localStorage.setItem('count', count)
         localStorage.setItem(count, text.data)

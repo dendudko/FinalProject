@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17afed5f-a29f-4a5f-b06e-4a75150f3d4b" name="Changes" comment="no jump">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/chatik/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/res/chatik/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/chatik/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/res/chatik/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +46,14 @@
       <recent name="D:\1ФЕФУ\Сетевые технологии\WebstormProjects\FinalProject\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FinalProject/dist/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/script.js/dist/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/script.js/main/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FinalProject/main/index.html" useBuiltInWebServerPort="true">
@@ -57,6 +61,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
@@ -77,7 +82,7 @@
       <workItem from="1642147403169" duration="165000" />
       <workItem from="1642147700027" duration="29000" />
       <workItem from="1642151502088" duration="65000" />
-      <workItem from="1642164837477" duration="478000" />
+      <workItem from="1642164837477" duration="764000" />
     </task>
     <task id="LOCAL-00001" summary="no jump">
       <created>1642144780726</created>
@@ -156,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642164975892</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="no jump">
+      <created>1642165328118</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1642165328118</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -38,7 +38,7 @@ input:focus{
 .knopochka{
     position: relative;
     outline: none;
-    background-color: red;
+    background-color: rgb(153,0,153);
     padding: 5px;
     width: 188px;
     height: 30px;
@@ -51,10 +51,10 @@ input:focus{
 }
 
 .knopochka:hover{
-    background-color: crimson;
+    background-color: rgb(120,0,130);
 }
 
 .knopochka:active{
-    background-color: greenyellow;
+    background-color: rgb(120,0,130);
 }
 
