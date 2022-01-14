@@ -1,3 +1,5 @@
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
 const axios = require('axios').default;
 axios.all([
     axios.get('https://api.github.com/users/dendudko')
