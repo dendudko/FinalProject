@@ -1,0 +1,42 @@
+.input{
+    border:3px solid #ffcd08;
+    border-radius: 20px;
+    width: 320px;
+    padding: 9px 15px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Yu Gothic UI Semibold";
+    font-size: 20px;
+    margin: 12% 0 0 0;
+}
+
+.input:focus {
+    outline: none;
+}
+
+h4{
+    text-align: center;
+    color: #ffcd08;
+    font-size: 60px;
+    font-family: "Yu Gothic UI Semibold";
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.button{
+    background: white;
+    padding: 9px 10px;
+    border-radius: 20px;
+    border:3px solid #ffcd08;
+    width: 200px;
+    font-family: "Yu Gothic UI Semibold";
+    font-size: 20px;
+    color: #ffcd08;
+    margin: 0;
+}
+.button:hover{
+    background: black;
+}
+.button:active{
+    background: white;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="../../main/favicon.ico" rel="icon" type="image/x-icon">
+    <meta charset="UTF-8">
+    <title>Final project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../main/menuStyle.css">
+
+</head>
+<body id="body" style="margin-top: 0;">
+<div class="main" style="display: flex; flex-wrap: wrap;">
+    <div style="margin-left: auto; margin-right: auto">
+        <div class="dropdown">
+            <button class="dropbtn" onclick="window.location.href='../../main/index.html'">Главная страница</button>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Мои соцсети</button>
+            <div class="dropdown-content">
+                <a href="https://www.instagram.com/_den_dudko_/" target="_blank">Инста</a>
+                <a href="https://vk.com/pochtizozh" target="_blank">Вк</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="window.location.href='../chatik/index.html'">Чат</button>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="window.location.href='../gallery/index.html'">Галерея</button>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Игры</button>
+            <div class="dropdown-content">
+                <a href='../bp/index.html'>Братья-пилоты</a>
+                <a href='../wam/index.html'>Ударь крота</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="window.location.href='../countdown/index.html'">Таймер</button>
+        </div>
+    </div>
+</div>
+
+<h4 id="timer">TIME: 60</h4>
+<h4 id="count" style="margin-bottom: 10px;">SCORE: 0</h4>
+<h4 style="position: absolute; margin-top: -47px;">Choose your mole!</h4>
+<input type="image" img src="KK.jpg" style="width:150px; position: absolute; margin-top: 5px;"
+       onclick="speed=1; chooseMole();">
+<h4 id="KK" style="position: absolute; margin-top: 65px; margin-left: 160px">Polish mole</h4>
+<input type="image" img src="KA.jpg" style="width:150px; position: absolute; margin-top: 165px;"
+       onclick="speed=2; chooseMole();">
+<h4 id="KA" style="position: absolute; margin-top: 225px; margin-left: 160px">Active mole</h4>
+<input type="image" img src="KT.jpeg" style="width:150px; position: absolute; margin-top: 325px;"
+       onclick="speed=3; chooseMole();">
+<h4 id="KT" style="position: absolute; margin-top: 385px; margin-left: 160px">Turbo mole</h4>
+<input type="button" class="button" value="Epileptic mode" onclick="ep=-ep; epileptic()">
+<input type="button" class="button" value="STOP GAME" onclick="stopGame()" style="bottom: -39px; top: auto;">
+<div class = "grid">
+    <div class = "cell" id="1"></div>
+    <div class = "cell" id="2"></div>
+    <div class = "cell" id="3"></div>
+    <div class = "cell" id="4"></div>
+    <div class = "cell" id="5"></div>
+    <div class = "cell" id="6"></div>
+    <div class = "cell" id="7"></div>
+    <div class = "cell" id="8"></div>
+    <div class = "cell" id="9"></div>
+    <div class = "cell" id="10"></div>
+    <div class = "cell" id="11"></div>
+    <div class = "cell" id="12"></div>
+    <div class = "cell" id="13"></div>
+    <div class = "cell" id="14"></div>
+    <div class = "cell" id="15"></div>
+    <div class = "cell" id="16"></div>
+</div>
+<hr style="width:100%;margin-top: 50px">
+<footer>
+    <p style="font-size: 16px; margin:0 0 0;">© Дудко Денис</p>
+</footer>
+</body>
+<script src="index.js" id="script"></script>
+</html>
