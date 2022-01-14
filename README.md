@@ -1,5 +1,6 @@
 # About
-Мой финальный проект по сетевым технологиям за пятый семестр)
+Мой финальный проект по сетевым технологиям за пятый семестр)	
+<br>
 https://dendudko.github.io/FinalProject/main/index.html
 # Installation
 1. Clone project from GitHub `https://github.com/dendudko/FinalProject`
