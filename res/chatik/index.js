@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function(){
 function restoreFromLocalStorage(){
     if (localStorage.length>0) {
         for (let i = 1; i <= localStorage.getItem('count'); i++) {
-            document.getElementById('messagebox').innerHTML += localStorage.getItem(i.toString()) + "<br><br>"
+            document.getElementById('messagebox').innerHTML += localStorage.getItem(i.toString()) + "<br>"
         }
         lastMessageScroll()
     }

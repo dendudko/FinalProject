@@ -4,7 +4,6 @@
     <list default="true" id="17afed5f-a29f-4a5f-b06e-4a75150f3d4b" name="Changes" comment="no jump">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/chatik/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/res/chatik/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/chatik/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/res/chatik/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,7 @@
       <workItem from="1642147403169" duration="165000" />
       <workItem from="1642147700027" duration="29000" />
       <workItem from="1642151502088" duration="65000" />
-      <workItem from="1642164837477" duration="764000" />
+      <workItem from="1642164837477" duration="936000" />
     </task>
     <task id="LOCAL-00001" summary="no jump">
       <created>1642144780726</created>
@@ -168,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642165328118</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="no jump">
+      <created>1642165655522</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1642165655522</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
