@@ -2,6 +2,7 @@
   "name": "finalproject",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "parcel main/index.html --open",
     "build": "parcel build main/index.html"
