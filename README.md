@@ -1,6 +1,6 @@
 # About
 Мой финальный проект по сетевым технологиям за пятый семестр)
-dendudko.github.io/FinalProject/main/index.html
+https://dendudko.github.io/FinalProject/main/index.html
 # Installation
 1. Clone project from GitHub `https://github.com/dendudko/FinalProject`
 2. Install dependencies from `package.json`
