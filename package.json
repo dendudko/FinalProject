@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel main/index.html --open",
-    "build": "parcel build main/index.html"
+    "build": "parcel build main/index.html res/**/index.html"
   },
   "repository": {
     "type": "git",
