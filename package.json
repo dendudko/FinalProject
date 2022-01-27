@@ -3,8 +3,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel main/index.html --open",
-    "build": "parcel build main/index.html res/**/index.html"
+    "start": "parcel main/index.html --open --no-cache",
+    "build": "parcel build main/index.html res/**/index.html --no-cache"
   },
   "repository": {
     "type": "git",
